@@ -87,9 +87,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴇʏ* {}, *ᴍʏ ɴᴀᴍᴇ ɪs* {}! ㅤ
-ɪ ᴀᴍ ᴀ ᴅᴇᴠɪʟ ʜᴜɴᴛᴇʀ ғʀᴏᴍ ᴄʜᴀɪɴsᴀᴡ ᴍᴀɴ.
-ɪ ᴀᴍ  ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ,ʙᴜɪʟᴛ ғᴏʀ ᴡᴇᴇʙs.
-ɪ ᴀᴍ sᴘᴇᴄɪᴀʟɪᴢᴇᴅ ɪɴ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘs ᴏғ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛɪᴇs[❃](https://te.legra.ph/file/fb6f4a0cd45dabfb68fa3.jpg)!
+•ᴇxᴛɪɴᴄᴛɪᴏɴ ɪs ᴛʜᴇ ᴛᴇʀᴍɪɴᴀᴛɪᴏɴ ᴏғ ᴀ kind ᴏғ ᴏʀɢᴀɴɪsᴍ ᴏʀ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴏғ ᴋɪɴᴅs ᴛʜᴇ ᴍᴏᴍᴇɴᴛ ᴏғ ᴇxᴛɪɴᴄᴛɪᴏɴ ɪs ɢᴇɴᴇʀᴀʟʟʏ ᴄᴏɴsɪᴅᴇʀᴇᴅ ᴛᴏ ʙᴇ ᴛʜᴇ ᴅᴇᴀᴛʜ
+•ɪ ᴀᴍ  ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ,ʙᴜɪʟᴛ ғᴏʀ ᴡᴇᴇʙs. ᴀᴍ ɴᴇᴠᴇʀ ɢᴏɴɴᴀ ᴅɪsᴀᴘᴘᴏɪɴᴛ ʏᴏᴜ.[❃](https://te.legra.ph/file/fb6f4a0cd45dabfb68fa3.jpg)!
 """
 
 buttons2 = [
@@ -119,32 +118,23 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="🛠️𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/kakashi_bots_updates"
-        ),
-        InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="Vc music 🎧", url=f"https://t.me/{BOT_USERNAME}?start=vhelp"
-        ),
-        InlineKeyboardButton(text="🌐𝙊𝙪𝙧 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url=f"https://t.me/Otaku_Binge"),
-    ],
-    [
+        InlineKeyboardButton(text="𝘼𝙣𝙞𝙢𝙚 𝙖𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘 𝙥𝙞𝙘𝙨 𝙖𝙣𝙙 𝙗𝙜𝙢 𝙘𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/LAMFA0"),
         InlineKeyboardButton(text="💡𝙃𝙚𝙡𝙥 𝙖𝙣𝙙 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
 *ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.*
-ɪ'ᴍ ᴀ ᴘᴀʀᴛ ᴏғ ᴏᴛᴀᴋᴜ • ʙɪɴɢᴇ
+ɪ'ᴍ ᴀ ᴘᴀʀᴛ ᴏғ ꛳𝙀✘𝐓𝐈𝐍𝐂𝐓𝐈𝐎𝐍𒑰𒑰™ ɢʀᴏᴜᴘ
 ʜᴀᴠᴇ ᴀ ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ғᴏʀ ᴀɴ ɪᴅᴇᴀ ᴏғ sᴏᴍᴇ ᴏғ ᴛʜᴇ ᴛʜɪɴɢs ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴡɪᴛʜ
 
 ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ: 
  • /help: ᴘᴍ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ. 
  • /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ. 
- • /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ! 
  • /settings:  
  • ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs. 
  • ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs.    
@@ -156,8 +146,8 @@ HELP_STRINGS = f"""
 DONATE_STRING = """
 
 Heya, glad to hear you want to donate!
-Makima is hosted on one of BINGE Servers and doesn't require any donations as of now but You can donate to the original writer of the Base code, 𝓚𝒶кคѕⒽᎥ ђ𝔞𝓉ᗩЌ𝒆
-There is a way of supporting me; [contact me](https://t.me/SIXTH_H0KAGE).
+Makima is hosted on one of BINGE Servers and doesn't require any donations as of now but You can donate to the original writer of the Base code, ＪＵＭＰＭＡＮ ＢＯＹ ⁪⁬
+There is a way of supporting me; [contact me](https://t.me/JUMPMAN_BOY).
 """
 
 IMPORTED = {}
