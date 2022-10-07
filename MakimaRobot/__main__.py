@@ -86,8 +86,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, *ᴍʏ ɴᴀᴍᴇ ɪs* {}! 
-ㅤ
+*ʜᴇʏ* {}, 
+*ᴍʏ ɴᴀᴍᴇ ɪs* {}! ㅤ
 •ᴇxᴛɪɴᴄᴛɪᴏɴ ɪs ᴛʜᴇ ᴛᴇʀᴍɪɴᴀᴛɪᴏɴ ᴏғ ᴀ kind ᴏғ ᴏʀɢᴀɴɪsᴍ ᴏʀ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴏғ ᴋɪɴᴅs ᴛʜᴇ ᴍᴏᴍᴇɴᴛ ᴏғ ᴇxᴛɪɴᴄᴛɪᴏɴ ɪs ɢᴇɴᴇʀᴀʟʟʏ ᴄᴏɴsɪᴅᴇʀᴇᴅ ᴛᴏ ʙᴇ ᴛʜᴇ ᴅᴇᴀᴛʜ
 •ɪ ᴀᴍ  ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ,ʙᴜɪʟᴛ ғᴏʀ ᴡᴇᴇʙs. ᴀᴍ ɴᴇᴠᴇʀ ɢᴏɴɴᴀ ᴅɪsᴀᴘᴘᴏɪɴᴛ ʏᴏᴜ.[❃](https://te.legra.ph/file/fb6f4a0cd45dabfb68fa3.jpg)!
 """
@@ -114,22 +114,23 @@ buttons2 = [
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ 𝘼𝙙𝙙 ꛳𝙀✘𝐓𝐈𝐍𝐂𝐓𝐈𝐎𝐍𒑰𒑰™ 𝙏𝙤 𝙈𝙖𝙣𝙖𝙜𝙚 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕",
+            text="➕ 𝘼𝙙𝙙 ꛳𝙀✘𝐓𝐈𝐍𝐂𝐓𝐈𝐎𝐍𒑰 𝙏𝙤 𝙈𝙖𝙣𝙖𝙜𝙚 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="𝘼𝙣𝙞𝙢𝙚 𝙖𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘 𝙥𝙞𝙘𝙨 𝙖𝙣𝙙 𝙗𝙜𝙢 𝙘𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/LAMFA0"),
         InlineKeyboardButton(text="💡𝙃𝙚𝙡𝙥 𝙖𝙣𝙙 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="help_back"),
+        InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝘼𝙣𝙞𝙢𝙚 𝙖𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘 𝙥𝙞𝙘𝙨 𝙖𝙣𝙙 𝙗𝙜𝙢 𝙘𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/LAMFA0"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.*
+*ʜᴇʏ ᴛʜᴇʀᴇ! 
+ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.*
 ɪ'ᴍ ᴀ ᴘᴀʀᴛ ᴏғ ꛳𝙀✘𝐓𝐈𝐍𝐂𝐓𝐈𝐎𝐍𒑰𒑰™ ɢʀᴏᴜᴘ
 ʜᴀᴠᴇ ᴀ ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ғᴏʀ ᴀɴ ɪᴅᴇᴀ ᴏғ sᴏᴍᴇ ᴏғ ᴛʜᴇ ᴛʜɪɴɢs ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴡɪᴛʜ
 
@@ -147,7 +148,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """
 
 Heya, glad to hear you want to donate!
-Makima is hosted on one of BINGE Servers and doesn't require any donations as of now but You can donate to the original writer of the Base code, ＪＵＭＰＭＡＮ ＢＯＹ ⁪⁬
+Makima is hosted on one of ꛳𝙀✘𝐓𝐈𝐍𝐂𝐓𝐈𝐎𝐍 Servers and doesn't require any donations as of now but You can donate to the original writer of the Base code, ＪＵＭＰＭＡＮ ＢＯＹ ⁪⁬
 There is a way of supporting me; [contact me](https://t.me/JUMPMAN_BOY).
 """
 
